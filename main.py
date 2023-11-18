@@ -42,3 +42,5 @@ for source in source_files:
         if source_files[source] != dest_files.get(source):
             print(f"{Fore.YELLOW}{source} 文件的内容已被变更！{Style.RESET_ALL}")
 
+input("")
+
